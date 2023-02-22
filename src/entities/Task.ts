@@ -1,0 +1,26 @@
+import { ITask } from '../interfaces/ITask';
+import mongoose from '../db/mongoose';
+
+const TaskSchema = new mongoose.Schema(
+  {
+    description: {
+      type: String,
+      required: true,
+      trim: true
+    },
+    completed: {
+      type: Boolean,
+      default: false
+    },
+    owner: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true,
+      ref: 'User'
+    }
+  },
+  {
+    timestamps: true
+  }
+);
+
+export const Task = mongoose.model<ITask>('Task', TaskSchema);
