@@ -14,7 +14,7 @@
 
 ## Clone this repository to your local machine.
  * Install the dependencies by running npm install in your terminal.
- * Start the server by running npm start.
+ * Start the server by running npm run server.
 ## Use a tool such as Postman to send HTTP requests to the API.
 ```bash
 Endpoints
