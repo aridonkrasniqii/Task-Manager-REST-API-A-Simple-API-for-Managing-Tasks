@@ -13,11 +13,11 @@
  * Start the server by running npm run server.
 ## Use a tool such as Postman to send HTTP requests to the API.
 ```bash
-Endpoints
+Endpoint
 
 GET /tasks - retrieves all tasks
-GET /tasks/:id - retrieves a single task
+GET /tasks/:taskId - retrieves a single task
 POST /tasks - creates a new task
-PUT /tasks/:id - updates a task
-DELETE /tasks/:id - deletes a task
+PUT /tasks/:taskId - updates a task
+DELETE /tasks/:taskId - deletes a task
 ```
