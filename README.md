@@ -1,10 +1,6 @@
 # Task Manager REST API
  * This repository contains the code for a simple RESTful API that allows users to manage tasks.
 
-## Features
-  * Users can create, read, update, and delete tasks.
-  * Tasks can have a title, description, and due date.
-  * Users can mark tasks as complete or incomplete.
 ## Technologies Used
   * Node.js
   * press.js
